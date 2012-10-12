@@ -10,9 +10,7 @@ describe "# 第 2 章 式" do
     end
   end
 
-  describe "範囲演算" do
-    "[Ruby の範囲指定の正体 #Ruby - Qiita](http://qiita.com/items/ce227a548fdc0befb089)\n".display
-
+  describe "範囲演算 ([Ruby の範囲指定の正体 #Ruby - Qiita](http://qiita.com/items/ce227a548fdc0befb089))" do
     it "Rangeオブジェクト" do
       expect((1..10).class).to eq Range
     end

@@ -12,7 +12,11 @@ vim-quickrunからRSpecのテスト実行できるように設定した
 [Vim-users.jp - Hack #172: RSpecをquickrunする (1/2):](http://vim-users.jp/2010/09/hack172/ "")
 
 [vim-quickrunで実行したRSpecの結果にレッドバー/グリーンバーを表示する #Rspec #Vim - Qiita](http://qiita.com/items/24a2b86348c4deec69fd "vim-quickrunで実行したRSpecの結果にレッドバー/グリーンバーを表示する #Rspec #Vim - Qiita")
-[Ruby の範囲指定の正体 #Ruby - Qiita](http://qiita.com/items/ce227a548fdc0befb089)
+
+# テスト結果
+
+<pre>
+
 
 # 第 1 章 オブジェクト指向プログラミングの基礎
   シェルコマンド
@@ -27,13 +31,12 @@ hellon
 8730nakano
     表示するだけなので値はかえらない
   プログラム
-みなさん、こんにちは
     外部スクリプトを読み込む
 
 # 第 2 章 式
   式展開
     インラインで計算結果
-  範囲演算
+  範囲演算 ([Ruby の範囲指定の正体 #Ruby - Qiita](http://qiita.com/items/ce227a548fdc0befb089))
     Rangeオブジェクト
     終端含む
     終端含まない #TODO 9 にならないの？
@@ -45,5 +48,5 @@ hellon
 String 自身のsizeを勝手に呼ぶ
     あと122文字つぶやける(白目)
 
-Finished in 0.36896 seconds
+Finished in 0.4137 seconds
 14 examples, 0 failures

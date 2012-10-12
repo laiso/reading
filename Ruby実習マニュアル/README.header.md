@@ -12,3 +12,8 @@ vim-quickrunからRSpecのテスト実行できるように設定した
 [Vim-users.jp - Hack #172: RSpecをquickrunする (1/2):](http://vim-users.jp/2010/09/hack172/ "")
 
 [vim-quickrunで実行したRSpecの結果にレッドバー/グリーンバーを表示する #Rspec #Vim - Qiita](http://qiita.com/items/24a2b86348c4deec69fd "vim-quickrunで実行したRSpecの結果にレッドバー/グリーンバーを表示する #Rspec #Vim - Qiita")
+
+# テスト結果
+
+<pre>
+
