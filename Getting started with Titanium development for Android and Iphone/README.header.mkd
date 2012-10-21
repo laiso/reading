@@ -1,0 +1,15 @@
+# (JavaScriptとTitaniumではじめる iPhone/Androidアプリプログラミング 【Titanium Mobile SDK 2.1 & Titanium Studio 2.1 対応】)[http://www.amazon.co.jp/gp/product/4839941084/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4839941084&linkCode=as2&tag=rer-22]
+
+# (出版社サイト 目次)[http://book.mycom.co.jp/MYCOM/html/book/978-4-8399-4108-6/index/978-4-8399-4108-6.html
+
+# 環境
+
+Windows 7
+Android SDK
+WebStorm
+
+# トラブルシュート
+
+[Windows環境のTitanium Studioでプロジェクト作成すると'No "android-8" or "android-2.2" in the Android SDK' とエラーが表示されコケる - laiso](http://laiso.hatenablog.com/entry/2012/10/21/024915)
+
+[Windows環境でTitanium StudioからAndroid エミュレータ起動しようとすると無反応のままタイムアウトになる - laiso](http://laiso.hatenablog.com/entry/2012/10/21/045456)
