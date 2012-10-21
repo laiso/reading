@@ -4,12 +4,22 @@
 
 # 環境
 
-Windows 7
-Android SDK
-WebStorm
+OS: Windows 7
+実行: Android SDK
+コーディング: Visual Studio Express 2012 for Web/TypeScript for Visual Studio 2012
+ビルド・デバッグ: Titanium Studio
 
 # トラブルシュート
 
 [Windows環境のTitanium Studioでプロジェクト作成すると'No "android-8" or "android-2.2" in the Android SDK' とエラーが表示されコケる - laiso](http://laiso.hatenablog.com/entry/2012/10/21/024915)
 
 [Windows環境でTitanium StudioからAndroid エミュレータ起動しようとすると無反応のままタイムアウトになる - laiso](http://laiso.hatenablog.com/entry/2012/10/21/045456)
+
+# テスト結果出力
+
+NodeJS環境でのMocha+shouldの自動テスト結果を成果物とする
+またTitanium Mobile SDK固有のAPIをSinon.JSを使ったオブジェクトでテストを通すようにする。
+
+[Sinon.JS - Versatile standalone test spies, stubs and mocks for JavaScript](http://sinonjs.
+
+<pre>
