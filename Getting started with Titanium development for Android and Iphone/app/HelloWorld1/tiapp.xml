@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">ub2Ptb4hkPCRIwfm6ALv97LXuoG3JxH0</property>
+    <property name="acs-oauth-key-production" type="string">KJWKvfGeOfzqzPJ5ZYEjiDJQMDmDUavi</property>
+    <property name="acs-api-key-production" type="string">wOkguiwFSCyGVRKBzUjo4ZI1RL4dUqXX</property>
+    <property name="acs-oauth-secret-development" type="string">9403ryjtVRxSZ7yz4yGsSle78Izs3GsH</property>
+    <property name="acs-oauth-key-development" type="string">MhTaIoOeieRfLJbATSIYxwl76NDVoW58</property>
+    <property name="acs-api-key-development" type="string">ZvhVqe3TUo7bpTyXTVbIrMvGMyUbTp0W</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.3.GA</sdk-version>
+    <id>so.lai.ti.helloworld</id>
+    <name>HelloWorld1</name>
+    <version>1.0</version>
+    <publisher>laiso</publisher>
+    <url>http://lai.so</url>
+    <description>Chapter 3 project.</description>
+    <copyright>2012 by laiso</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>44f7e5b1-d48b-4a9a-840a-fe365c4ea46e</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+</ti:app>
