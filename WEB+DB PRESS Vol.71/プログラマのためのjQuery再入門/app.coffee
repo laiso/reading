@@ -1,3 +1,3 @@
 $ ->
-  $('table td').on 'click', ->
+  $('table').on 'click', 'td', ->
     $(@).css 'color', 'red'
